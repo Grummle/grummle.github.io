@@ -116,6 +116,8 @@ Ok third times a charm. I think, hot outta the vim emulator is:
 ```
 
 If we can see the ```dragstart``` then it had to happen in the browser, so make a note of it. If it didn't then we know
-it started somewhere else and we can put up the upload overlay. Only tried so far in Chrome 28, but I'll take what I can get.
+it started somewhere else and we can put up the upload overlay. Works in Chrome 28, but looks like FF 22 has some issues still.
+
+
 
 :x
