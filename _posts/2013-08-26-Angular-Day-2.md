@@ -15,11 +15,11 @@ comes with the events to kill it after the program exits as well, which is nice.
 tests.   
 
 Ok well this turned out to be easier then I'd have thought. I hate/love it when I work on something and go through all kinds of controtions and download all these files, 
-setup all these things and then it ends up being a half doesn't lines of code in just the right place.   
+setup all these things and then it ends up being a half dozen lines of code in just the right place.   
 
-So we ended up adding a grunt file like the following.  
+So I ended up adding a grunt file like the following.  
 
-```
+```javascript
 module.exports = function(grunt) {
     grunt.initConfig({});
 
@@ -54,11 +54,10 @@ module.exports = function(grunt) {
 ```
 
 Alrighty then, we now get the following  
-![Grunt Output 1](/images/grunt1.png)
-
+![Grunt Output 1](/images/grunt1.png)  
 Ok, and time for a side how with the last half hour of the work day. Pretty sad this is all I got done today....
 
-I'd love to have jshint/lint avaialble so that I can bitch/be bitched at/by my coworkers. I have a feeling this is totally a solved 
+I'd love to have jshint/lint avaialble so that I can bitch/be bitched at/by my coworkers. This is totally a solved 
 thing so we'll return after another google montage....  
 
 Ok that easy enought, just get the package and put a small entry into the gruntfile. Of course then I also had to fix my files so they'd lint properly :)

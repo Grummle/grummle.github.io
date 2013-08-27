@@ -7,9 +7,9 @@ title: "Angular From Scratch: Brownfield Everywhere....."
 At my current job, [Reachmail](http://www.reachmail.com), we've got a disgusting brownfield app. We've been working our way through a plethora of 
 different technologies, methodoligies and theologies. We decided awhile ago that a one page app makes alot of sense in our case. 
 
--People spend alot of time in the app per sitting, so js load times shouldn't be an issue overall.
--Its an app that isn't public, meaning that SEO isn't an issue
--The complexity of alot of the interaction is a royal pain with postbacks  
+-   People spend alot of time in the app per sitting, so js load times shouldn't be an issue overall.
+-   Its an app that isn't public, meaning that SEO isn't an issue
+-   The complexity of alot of the interaction is a royal pain with postbacks  
 
 We initially started with backbone and it was amazing. It truly changed the way I think of development. I told my boss, There is no way 
 I'm going back to developing in web forms or even exclusively MVC. As we started to work with backbone more and more we ran into more and 
@@ -32,10 +32,10 @@ My co-worker [Brian Kothe](http://www.linkedin.com/in/briankothe) took those thr
 
 At this point I should mention that the site is a hodpodge of classic ASP, ASP.net WebForms, ASP.net MVC3 and FUBUMVC. Classic ASP is by far the leader for shear vollume. 
 BK went through and touched _every single page_ on the site and basically made it mostly sane. The amount of work he did and quality of the work was awe inspiring. It helps that 
-he's pretty OCD about his code :) He used bootstrap and sanitized the vast majority of the html css on the site. So the site is not relatively sane when it comes to html/css. 
+he's pretty OCD about his code :) He used bootstrap and sanitized the vast majority of the html css on the site. So the site is now relatively sane when it comes to html/css. 
 The majority of the code however still can't take advantage of all the work me and my co-workers have put into crafting a new backend in .net.
 
-So now that we've got a sit that visually, usually doesn't make me want to slit my wrists its time to bring it into the new world.   
+So now that we've got a site that visually, usually doesn't make me want to slit my wrists its time to bring it into the new world.   
 
 I'm create a directory called ```/app``` and it'll be the new sites home. Visually its gonna look identical to the current site for the most part. The goal is for 
 the users to be able to move between old crap and new hotness without them realizing it. So we can move chunks of the site over to Angular as we go and touch different parts. 
@@ -47,28 +47,24 @@ So pulling in the base html from our app we end up with
   
 ![Reachmail Base](/images/reachmail1.png)
 
-Where to go from here  
-
+Where to go from here:  
 -   Menu: Reachmail has a menu that sticks around on all of the pages...
 -   populate ? placeholders on this page. Its an html page and has no concept of who is looking at it.
 -   Library decison time.
 -   Testing: Already, bet your bipper. I've gotten 2 or three pages into this in the past and _every_ time it gets out of hand _so_ fast.
 
-**Test early, Test often**
+**Test early, Test often**  
 Ok so testing wins. Since I like to keep up with the lastest and greatest (esp when its better then old and busted) I've been looking at Angular [Protractor](https://github.com/angular/protractor). My understanding is that its 
 a wrapper for WebdriverJS that is Angular aware and is displacing the angular scenario runner. So a wonderful first test in my mind is just making sure the damn index.html comes up. How you do that?  
 
-Shit time for a an excursion. How to get protractor working well and how to make it easy to use and setup for my compatriates.   
+Shit, time for a an excursion. How to get protractor working well and how to make it easy to use and setup for my compatriates.   
 
 - Protractor itself
 - Running protractor tests
 - What testing framwork and assertion library
 
-A heads up I like playing around with node but the infrastructure side (npm) I'm not so good with so this is gonna be ugly.
-
 Alright protractor can be gotten easy enough.... ```npm install protractor``` Now where do I put it....
-
-ok so I'm putting this all in app. Just guessing at this point. New package.json with ```npm init```
+Ok so I'm putting this all in app. Just guessing at this point. New package.json with ```npm init```
 
 ```npm install --save-dev protractor```  
 ```npm install --save-dev mocha```  
