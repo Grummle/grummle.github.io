@@ -59,9 +59,9 @@ a wrapper for WebdriverJS that is Angular aware and is displacing the angular sc
 
 Shit, time for a an excursion. How to get protractor working well and how to make it easy to use and setup for my compatriates.   
 
-- Protractor itself
-- Running protractor tests
-- What testing framwork and assertion library
+-   Protractor itself
+-   Running protractor tests
+-   What testing framwork and assertion library
 
 Alright protractor can be gotten easy enough.... ```npm install protractor``` Now where do I put it....
 Ok so I'm putting this all in app. Just guessing at this point. New package.json with ```npm init```
@@ -78,7 +78,7 @@ Now comes the pita. I need a selenium server for protractor to connect to. How c
 Ok gonan half ass it. I'm using the install script provided by protractor at ```/node_modules/protractor/bin/instal_selenium_standalone``` and gonna commit it to git. Not ideal but it works.  
 Ok we'll fire up the selenium server. and try and run the tests in onMocha.js to make sure this is working....  
 Yay! Test run against agnular site. So now our dir struct is looking like the following.  
-![Basic Dir So far](/images/dir1.png)  
+![Basic Dir So far](/images/dir1.PNG)  
 
 Now time to mode onMocha.js to something more civalized. Hmmm.... Basic.spec.js
 
