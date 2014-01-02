@@ -1,5 +1,5 @@
 ---
-layout: basic
+layout: blog 
 title: "RabbitMQ for Errors in .Net" 
 ---
 
