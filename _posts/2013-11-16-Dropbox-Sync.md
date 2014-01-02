@@ -7,6 +7,8 @@ So I talked about wanting to use [dropbox-sync-js](https://github.com/Phlaphead/
 The library seemed to be very well written though not quite general enough for my purposes on further examination. So time to mod it and see if we can't 
 contribute back to the project in the process.  
 
+<!--more-->
+
 So the major things I need to address are:  
 - Load as module and not run synch
 - Ability to specify config file location.

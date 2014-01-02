@@ -5,6 +5,8 @@ title: "Angular From Scratch: Day 5"
 
 Ok so today we get start by putting everything I destroyed last night back into shape. Ugh, you'd think I'd have learned this lesson by now.  
 
+<!--more-->
+
 [_Housekeeping_](http://www.youtube.com/watch?v=3QCSrQEGvZA)
 
 

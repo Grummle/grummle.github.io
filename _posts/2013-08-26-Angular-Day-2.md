@@ -6,6 +6,8 @@ title: "Angular From Scratch: Day 2"
 So, we left off looking for a way to make the E2E tests run with Protractor easier to run. This means we need something to start up the Selenium server, 
 then run mocha with the correct files.  
 
+<!--more-->
+
 _Googling and futzing montage_   
   
 Ok, so it appears that there is a plethora of stuff out there for this. Doesn't look like I'll be able to make heads or tails enough of it to use it however. 

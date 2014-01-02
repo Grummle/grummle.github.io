@@ -5,6 +5,8 @@ title: "Baby Pictures"
 
 So since Norah was born I've been wrestling with finding a way to have all of our pictures of her available to us and our family/friends, while also giving our family and friends a way to send us their pictures of Norah. The other requirement is that they have to be "backed up".
 
+<!--more-->
+
 ##Keep Calm and Back It Up:
  I lost about 5 years worth of photos to a hard drive failure several years go. Murphy was a real ass about it, he waited to fail the hard drive till the day that I had the hard drive I intended to use for software RAID1 (Mirror) in hand.
  

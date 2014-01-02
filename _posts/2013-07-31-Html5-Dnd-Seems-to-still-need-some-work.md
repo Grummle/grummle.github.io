@@ -6,6 +6,8 @@ title: Html5 DND into document/body
 So I'm trying to implement a drag and drop file upload somewhat like [imgur](http://imgur.com/) or [Github's issues](http://github.com).
  I started with Eric Bidelman's artcle ['Native HTML5 Drag and Drop'](http://www.html5rocks.com/en/tutorials/dnd/basics/#toc-dragover-dragleave),
  and its a great article that goes into more depth then I'd seen before.
+ 
+<!--more-->
 
  My use case is that we have an HTML editor that our clients use to create an email. We've had clients recently that have been
  dragging and dropping images from other tabs/pages into the editor and depending on what the content was inserting a full image of the form:

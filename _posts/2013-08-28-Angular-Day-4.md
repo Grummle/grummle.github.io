@@ -11,6 +11,8 @@ So my choices for today are:
 -   Menus
 -   Login $http interceptor
 
+<!--more-->
+
 I'm thinking the interceptor just cause I haven't done it yet. [This video](http://www.youtube.com/watch?v=W13qDdJDHp8) talks about the new 'around' 
 interceptors in 1.2.0 and so thats where we are going to start looking. The idea is that if a request is made and a 401 is returned that a dialog 
 should pop up for login and after the user logs in succefully continue with the request. No idea how to do this...  

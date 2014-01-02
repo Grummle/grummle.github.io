@@ -5,6 +5,8 @@ title: "Angular: Nursing"
 
 My wife is currently nursing so we are going to sneak in a little 'work'.  
 
+<!--more-->
+
 We left off with a decent start to our angular app. One thing that was bothering me was that I had hard coded some of the data 
 for things like urls and username/passwords in the tests. We keep most if not all of that stuff in our web/app.config. It'd be 
 nice if that stuff was available to our node/grunt stuff.

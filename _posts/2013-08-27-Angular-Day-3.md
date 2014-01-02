@@ -5,6 +5,8 @@ title: "Angular From Scratch: Day 3"
 
 Ah day 3. It feels like this might become an actual thing. So were where we....  
 
+<!--more-->
+
 -   Library decison time.
 -   populate ```?``` placeholders in ```index.html```. Its an html page and has no concept of who is looking at it.
 -   Menu: Reachmail has a menu that sticks around on all of the pages...

@@ -7,6 +7,8 @@ title: "Angular From Scratch: Brownfield Everywhere....."
 At my current job, [Reachmail](http://www.reachmail.com), we've got a disgusting brownfield app. We've been working our way through a plethora of 
 different technologies, methodoligies and theologies. We decided awhile ago that a one page app makes alot of sense in our case. 
 
+<!--more-->
+
 -   People spend alot of time in the app per sitting, so js load times shouldn't be an issue overall.
 -   Its an app that isn't public, meaning that SEO isn't an issue
 -   The complexity of alot of the interaction is a royal pain with postbacks  
