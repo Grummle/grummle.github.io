@@ -1,5 +1,5 @@
 ---
-layout: basic
+layout: blog
 title: "Baby Pictures" 
 ---
 
@@ -22,7 +22,7 @@ One of the current hammers in my tool belt is node.js. DB has a javascript api..
 ##R&D: Rip off and duplicate
 
 ###Dropbox
-So I stared poking around to see what was out there and came across [dropbox-sync-js](https://github.com/Phlaphead/dropbox-sync-js) by [Phlaphead](https://github.com/Phlaphead). Its basically an implementation of the dripbox application in javascript. From a quick perusal of the code it seems well built and easy to follow. It has a couple quirks that need to be addressed and I'm hoping to get do a pull request to fix some issues it has with synching non-app folders. 
+So I stared poking around to see what was out there and came across [dropbox-sync-js](https://github.com/Phlaphead/dropbox-sync-js) by [Phlaphead](https://github.com/Phlaphead). Its blogally an implementation of the dripbox application in javascript. From a quick perusal of the code it seems well built and easy to follow. It has a couple quirks that need to be addressed and I'm hoping to get do a pull request to fix some issues it has with synching non-app folders. 
 
 So now I've got my synching strategy worked out.
 

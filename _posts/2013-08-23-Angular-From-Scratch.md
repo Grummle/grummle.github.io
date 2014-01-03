@@ -1,5 +1,5 @@
 ---
-layout: basic
+layout: blog
 title: "Angular From Scratch: Brownfield Everywhere....."
 ---
 
@@ -33,7 +33,7 @@ We recently went through a 'redesign', and I say that with qoutes because we had
 My co-worker [Brian Kothe](http://www.linkedin.com/in/briankothe) took those three pages and extrapalated/applied Adam's design to the rest of the site. 
 
 At this point I should mention that the site is a hodpodge of classic ASP, ASP.net WebForms, ASP.net MVC3 and FUBUMVC. Classic ASP is by far the leader for shear vollume. 
-BK went through and touched _every single page_ on the site and basically made it mostly sane. The amount of work he did and quality of the work was awe inspiring. It helps that 
+BK went through and touched _every single page_ on the site and blogally made it mostly sane. The amount of work he did and quality of the work was awe inspiring. It helps that 
 he's pretty OCD about his code :) He used bootstrap and sanitized the vast majority of the html css on the site. So the site is now relatively sane when it comes to html/css. 
 The majority of the code however still can't take advantage of all the work me and my co-workers have put into crafting a new backend in .net.
 
@@ -118,7 +118,7 @@ describe('RM Angular App', function() {
 });
 ```
 
-Ok so now we've got a basic test to see that the app page loads. Outsanding!!! Shit still got an hour and 45 minutes left to work. Alright fine, but I'm at least 
+Ok so now we've got a blog test to see that the app page loads. Outsanding!!! Shit still got an hour and 45 minutes left to work. Alright fine, but I'm at least 
 gonna tackle something fun...
 
 **Grunt**  

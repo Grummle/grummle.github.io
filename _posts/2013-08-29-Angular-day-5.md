@@ -1,5 +1,5 @@
 ---
-layout: basic
+layout: blog
 title: "Angular From Scratch: Day 5" 
 ---
 

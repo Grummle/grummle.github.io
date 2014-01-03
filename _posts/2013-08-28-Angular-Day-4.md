@@ -1,5 +1,5 @@
 ---
-layout: basic
+layout: blog
 title: "Angular From Scratch: Day 4" 
 ---
 
@@ -20,7 +20,7 @@ should pop up for login and after the user logs in succefully continue with the 
 _Google Montage_  
 
 Ok, so looks like this is gonna be way more cake then I thought it would be. I found [this](https://github.com/witoldsz/angular-http-auth) and it appears that it'll 
-basically take care of the 401 interceptor for me. It looks very tight so far. It waits for a 401 in the response and if it finds it emits a event from $rootScope. 
+blogally take care of the 401 interceptor for me. It looks very tight so far. It waits for a 401 in the response and if it finds it emits a event from $rootScope. 
 At which point you can handle it and then call authService.loginConfirmed() and it'll replay the previous failing requests. Marvelous!  
 
 As for the dialog that needs to be displayed, I toyed with the idea of maybe making my own dialog handler. I've got to do something after all, but after a quick peek under 

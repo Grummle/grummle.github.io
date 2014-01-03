@@ -1,5 +1,5 @@
 ---
-layout: basic
+layout: blog
 title: "Log Shipping from SQL Server 2008 SP1 to SQL Server 2008 R2"
 ---
 In a word...it works with some caveats. No stand by :( Apparently the change to R2 was significant enough to require that the database files be upgraded. So because my backups are 2008 SP1 I have to run it in No Recovery. Boo. We used the standby feature as a short term point in time backup. Our database is roughly 450GB so restores and such could take quite a while. When we screwed up something in production we had about half an hour to scoot over to the log shipping secondary and get the data back before having to resort to a full restore. You have no idea how many times I would shut down log shipping when I hear a yelled, 'Shit!' from my bosses office.<br /><br />Our primary was setup about 2 weeks ago with 2008 SP1, and now our secondary has 2008 R2.I'll punch it up to R2 at some point and then redo the log shipping. PITA oh well.<br /><br />I looked at mirroring but we only have SQL Server Standard and our secondary box is less performant then our primary. I felt&nbsp;synchronous&nbsp;mirroring would probably slow us down substantially. Granted I haven't tried it, &nbsp;but from the white papers it looked like it would be about 60-75% slower.

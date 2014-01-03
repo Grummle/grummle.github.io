@@ -1,5 +1,5 @@
 ---
-layout: basic
+layout: blog
 title: Futzing with AngularJS Expressions
 published: false
 ---

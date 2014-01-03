@@ -1,5 +1,5 @@
 ---
-layout: basic
+layout: blog
 title: "NHibernate: Ignore case when parsing string Enum"
 ---
 This is not the&nbsp;answer&nbsp;sorry. If you find out how to do this let me know.<br /><br />I've got a table of 'TableElements'. These elements can be used to create new tables. They contain the column 'element_type' that is literally the SQL type of the potential column (ie varchar,int,bit,,,,). We are switching the application over to use NHibernate and so I created a simple class to&nbsp;encapsulate&nbsp;this and figured on using the System.Data.SqlDbType Enum to expose this field. NHibernate has no problem with string to Enum, except when the cases are different. Enum.Parse has a boolean to spec if the operation is case sensitive, but I can not for the life of me figure out how to make it case insensitive in NHibernate.<br /><br />Luckily I'm just going to correct the case on all the strings in the DB and call it done. I got lucky in the first place the syphilitic monkeys who originally wrote this app even used the standard SQL type names and not some BS they pulled out of their ass.

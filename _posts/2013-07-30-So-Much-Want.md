@@ -1,5 +1,5 @@
 ---
-layout: basic
+layout: blog
 title: So Much Want
 ---
 [I want to go so bad.](http://www.ng-conf.org/)

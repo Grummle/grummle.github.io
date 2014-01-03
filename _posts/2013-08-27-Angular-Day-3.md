@@ -1,5 +1,5 @@
 ---
-layout: basic
+layout: blog
 title: "Angular From Scratch: Day 3" 
 ---
 
@@ -46,7 +46,7 @@ Doh, looks like the underscore project is the full underscore project which we a
 bower install component-underscore
 ```
 
-Ok now that we seem to have everything setup lets get some actual freaking code going. First up we need to get the user and basic info for the index page. 
+Ok now that we seem to have everything setup lets get some actual freaking code going. First up we need to get the user and blog info for the index page. 
 We'll need something like the following...  
 
 ```javascript
@@ -82,7 +82,7 @@ I'm going to delve in and make sure its all setup and properly tested on the bac
 Ok, well apparently I was thorough before and the endpoint is setup as well as having acceptance tests against it (C# test that hits the endpoint and inspects the json returned. 
 Props to [MOB](http://www.mikeobrien.net/) for the internal DSL we use to acceptance test the endpoints)  
 
-So now we need to setup up some of the basic angular stuff. Get angular on the page and create a module we start dumping stuff into. We'll add a (suprise!) app.js that creates the rm module. We'll add that to the ```index.html```.   
+So now we need to setup up some of the blog angular stuff. Get angular on the page and create a module we start dumping stuff into. We'll add a (suprise!) app.js that creates the rm module. We'll add that to the ```index.html```.   
 
 **Optimizations**  
 So at this point we are starting to add js files to our project and we're starting to add them to index.html. If you do a file per function/piece for our app we are going to end up with quite a few files and its going to slow 

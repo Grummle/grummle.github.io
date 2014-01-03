@@ -1,5 +1,5 @@
 ---
-layout: basic
+layout: blog
 title: "Inline Sensing Variables: Saving your bacon one assert at a time"
 ---
 The term 'Inline Sensing Variables' is my fancy way of saying using Asserts in production code. I think its probably got a tad less&nbsp;pretentious&nbsp;name somewhere out there.<br /><br />I work on what could generously be called a 'Brownfield' app. More precisely its a steaming pile of shiat. The major component that I've been working on cobbles together all the information needed to send email. Its pretty much the heart of the app and if it messes up it can really bite us in the ass. When one client gets 2K emails in 2 min we tend to hear about. So refactoring the component carefully is key. Reading through books like 'Agile Principles, Patterns, and Practices in C#' suggest that you have tests in place so you can refactor with little to no worry. What do you on a component thats not testable? Asserts baby. I'm currently ripping all the data access code out and replacing it with nHibernate based objects. There are a few (hundred) quirks in the data access layer though so making sure it all does exactly what it did before is paramount.
