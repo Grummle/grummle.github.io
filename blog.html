@@ -2,7 +2,7 @@
 layout: basic
 ---
 
-{% for post in site.posts limit:10 %}
+{% for post in site.posts %}
     <h1><a style="color:black" href="{{post.url}}">{{ post.title }}</a></h1>
     <div>
         {% if post.content contains '<!--more-->' %}
