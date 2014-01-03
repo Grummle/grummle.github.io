@@ -14,7 +14,7 @@ We have a new born who's 4 months old. So keeping her room a stable temperature 
 I think the relationship that most houses have with heating/cooling is much simpler then our current setup. So without zoning what can we do? If we knew the temp in each room and told the thermostat which room we cared about (living room during the day, baby's room at night) the thermostat would have an easier time of it.
 
 ##Enter [Ninja Blocks][nb]
-I already had a Raspberry Pi and when I saw that [Pi Crust][picrust] I thought it'd be a perfect fit. The crust allows a raspberry pi to interact with the 433MHz class of devices that Ninja Blocks offers. One of those devices was a [$15 wireless battery operated thermometer/humidity sensor][tempsensor]. Perfect! So for $184 I got 1x [Pi Crust][picrust], 6x [temp sensors][tempsensor] and 3x [motion sensors][motionsensor]. I was in heaven. It took awhile for them to show up, but I was *uber* excited to play with them. I've always figured that I was going to have to dig through the source in order to make my solution internal (no reliance on Ninja Blocks cloud service) but to make sure everything worked I setup as directed by NB. Ran into an issue, but easily fixed with help from the forum and then we hit 'the' snag. Temp sensor range was about 3 foot from the pi.
+I already had a Raspberry Pi and when I saw that [Pi Crust][picrust] I thought it'd be a perfect fit. The crust allows a raspberry pi to interact with the 433MHz class of devices that Ninja Blocks offers. One of those devices was a [$15 wireless battery operated thermometer/humidity sensor][tempsensor]. Perfect! So for $184 I got 1x [Pi Crust][picrust], 6x [temp sensors][tempsensor] and 3x [motion sensors][motionsensor]. I was in heaven. It took awhile for them to show up, but I was *uber* excited to play with them. I've always figured that I was going to have to dig through the source in order to make my solution internal (no reliance on Ninja Blocks cloud service) but to make sure everything worked I setup as directed by NB. [Ran into an issue][lsb], but easily fixed with help from the [forum][lsb] and then we hit 'the' snag. Temp sensor range was about 3 foot from the pi.
 
 ###Pi Crust
 ![pi crust](/images/picrust.png)  
@@ -31,5 +31,6 @@ Why would you release something like this? How is it useful? The forums seem to 
 [picrust]: http://ninjablocks.com/pages/picrust "Pi Crust"
 [tempsensor]: http://ninjablocks.com/products/temperature-and-humidity-sensor "Temp Sensor"
 [motionsensor]: http://ninjablocks.com/products/motion-sensor "Motion Sensor"
+[lsb]: http://forums.ninjablocks.com/index.php?p=/discussion/2311/pi-crust-setup-issue-mathkernel-lsb-header "LSB Fix"
 
 
