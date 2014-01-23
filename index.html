@@ -4,6 +4,31 @@ layout: basic
 
 <h1>Michael Dillon</h1>
 
+
 <p>Oh, THAT guy? Ugh.</p>
+<div ng-app="grummle">
+    <div ng-controller="MyController">
+        Hello, {[{stats.herp}]}!
+        Hello, {[{douche}]}!
+    </div>
+</div>
 
 
+<script src="//cdn.firebase.com/v0/firebase.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js"></script>
+<script src="//cdn.firebase.com/libs/angularfire/0.6.0/angularfire.min.js"></script>
+<script>
+
+    var app = angular.module('grummle',['firebase']).config(function($interpolateProvider){
+        $interpolateProvider.startSymbol('{[{').endSymbol('}]}');
+    });
+
+    app.controller('MyController',function($scope, $firebase) {
+        var stats = new Firebase("https://grummle.firebaseio.com/");
+        // Automatically syncs everywhere in realtime
+        $scope.stats = $firebase(stats);
+        $scope.douche = 'fark you bitches';
+        console.log($scope.stats)
+        $scope.stats.$on('loaded',function(){console.log('loaded');$scope.$digest()})
+    });
+</script>
