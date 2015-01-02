@@ -39,7 +39,7 @@ Lifecycle Controller 2	1.4.2.12
 ##List Upload
 Ok so after rebasing master into list upload branch I've got to make sure no one else (GG) was playing with the branch as I need to force it upstream. So that worked
 out to be alot easier then I'd hoped. I apparently took my time when I did the rebase and it was suprising clean. Its pushed to master as GG requested so now he can play with it
-and make fun of me.
+and [make fun of me](http://www.homestarrunner.com/sbemail1.html).
 
 ##Interview Questions
 Why do it yourself when you can farm it out! Dispatched a email to the team to see what they want to see asked.
