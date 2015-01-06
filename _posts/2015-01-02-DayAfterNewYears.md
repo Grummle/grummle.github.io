@@ -11,29 +11,32 @@ Time to vomit out some more basic todo list type stuff to see if we can keep Mr.
 * ~~Send firmware data to harddisk people.~~
 * ~~Check on brake pads, wtf are they? Apprently ship today~~  
 * ~~Review and push Current list upload stuff to master~~
-* take a look at filtering Path to long errors.
+* Improve error handling
+  * How to serialize exceptions properly for Elastisearch
+  * take a look at filtering Path to long errors.
 * take a look at reproducing Angular loop on login page 
 * ~~figure out strikethrouhg jekyll/github pages~~
 * Make up some questions for interviewies
 * Setup thinkorswim account
+* Deposit Xmas largess
 
 ## Firmware roundup.
 So we are trying to figure out if the drives that we have a legit drives or if we got screwed. I'm going with screwed at this point, but the drives are ent level SSD
 so we only apparenlty got screwed gently. They just aren't Dell branded. Ok, lets get some firmware numbers.
 
 
-PERC H710P
-Driver Version	6.600.21.08
-Storport Driver Version	6.3.9600.17090
-
-BIOS
-Manufacturer	Dell Inc.
-Version	1.1.2
-Release Date	03/08/2012
-
-BMC/iDrac
-iDRAC7	1.57.57 (Build 4)
-Lifecycle Controller 2	1.4.2.12
+PERC H710P  
+Driver Version	6.600.21.08  
+Storport Driver Version	6.3.9600.17090  
+  
+BIOS  
+Manufacturer	Dell Inc.  
+Version	1.1.2  
+Release Date	03/08/2012  
+  
+BMC/iDrac  
+iDRAC7	1.57.57 (Build 4)  
+Lifecycle Controller 2	1.4.2.12  
 
 
 ##List Upload
