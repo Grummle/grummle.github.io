@@ -445,6 +445,11 @@ footer {
   transform:rotate(90deg);
 }
 
+label[for='toggle-all']{
+  display: none;
+}
+
+
 #toggle-all:before{
   content:'»';
   font-size:28px;
@@ -452,6 +457,9 @@ footer {
   padding: 0 25px 7px;
 }
 
+#toggle-all:checked:before {
+	color: #737373;
+}
 
 #todoHeader h1 {
   text-align:center;
