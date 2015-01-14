@@ -62,4 +62,5 @@ Dropping the app directly into my github pages based site works like a charm. Ev
 ####Jekyll
 Jekyll interpolates (or tries to) {%raw%}{{ }}{%endraw%} so via [this](http://stackoverflow.com/questions/24102498/escaping-double-curly-braces-inside-a-markdown-code-block-in-jekyll) you escape it using &#123;%raw%}&#123;%endraw%}
 
-
+## Commit your changes stupid
+Made a Web.config change in production to fix a problem in our admin site. Of course my dumb ass didn't commit it so the next deploy wiped it out. Note to self don't be stupid......
