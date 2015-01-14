@@ -428,7 +428,7 @@ footer {
     left: -15px;
     width: 65px;
     height: 41px;
-    position: relative;
+    position: absolute  ;
     border: none;
     outline: none;
     -webkit-appearance: none;
